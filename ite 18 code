@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Coffee</title>
+    <style>
+        body {
+            background-color: #f3e5be;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #6b4a34;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+            margin-left: 50px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 80px;
+            margin-right: 200px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #6b4a34;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 120px);
+        }
+
+        .content-text {
+            text-align: left;
+        }
+
+        .content-text h1,
+        .content-text h2 
+        .content-text h3 {
+            margin: 0;
+        }
+
+        .content-text h1 {
+            font-size: 5rem;
+            margin-bottom: 10px;
+        }
+
+        .content-text h2 {
+            font-size: 1.5rem;
+        }
+
+        .content-text h3 {
+            font-size: 1.5rem;
+        }
+
+        .content-text p {
+            margin-top: 10px;
+        }
+
+        .content-image {
+            margin-left: 300px;
+        }
+
+        .content-image img {
+            width: 600px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #6b4a34;
+            color: #fcf9f9;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="graphics/logo.png" alt="">
+
+        </div>
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="content-text">
+            <h1>BREWED<br>COFFEE</h1>
+            <h2>Crafting Moments, One Coffee at</h2>
+            <h3>a Time.</h3>
+            <a href="#" class="button">BUY NOW</a>
+        </div>
+        <div class="content-image">
+            <img src="graphics/fresh-coffee-steams-wooden-table-close-up-generative-ai (1).jpg" alt="">
+        </div>
+    </main>
+</body>
+</html>
